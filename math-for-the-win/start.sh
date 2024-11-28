@@ -2,4 +2,4 @@
 
 set -e
 
-socat tcp-listen:5555,reuseaddr,fork SYSTEM:"python3 /app/check-key.py"
+socat tcp-listen:5555,reuseaddr,fork SYSTEM:"python3 /app/check_key.py"
